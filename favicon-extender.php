@@ -15,10 +15,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'FAVEXTENDER_VERSION', '1.0' );
 
-// Localize the plugin.
 add_action( 'init', 'favextender_load_textdomain' );
+/**
+ * Localize the plugin.
+ */
 function favextender_load_textdomain() {
-	load_plugin_textdomain( 'favextender', false, basename( dirname( __FILE__ ) ) . '/languages' );
+	load_plugin_textdomain( 'favicon-extender', false, basename( dirname( __FILE__ ) ) . '/languages' );
 }
 
 // Autoload Classes.

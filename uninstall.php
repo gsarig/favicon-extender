@@ -13,8 +13,8 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 
 global $wpdb;
 
-// Remove options
-$wpdb->query( "DELETE FROM {$wpdb->prefix}options WHERE option_name REGEXP 'favextender_'" );
-
-// Remove post_meta
-$wpdb->query( "DELETE FROM {$wpdb->prefix}postmeta WHERE meta_key REGEXP 'favextender_'" );
+// Remove theme_mods
+remove_theme_mod( 'override_icon' );
+remove_theme_mod( 'android_icon' );
+remove_theme_mod( 'ios_icon' );
+remove_theme_mod( 'windows_icon' );
