@@ -5,7 +5,7 @@ Tags: favicon
 Requires at least: 4.8
 Tested up to: 5.4
 Requires PHP: 7.0
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 
 
