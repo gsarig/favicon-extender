@@ -1,6 +1,6 @@
 wp.customize.bind('ready', function () {
-	var iconFields = $('#customize-control-android_icon, #customize-control-ios_icon, #customize-control-windows_icon');
-	var overrideControl = $('#customize-control-override_icon');
+	var iconFields = jQuery('#customize-control-android_icon, #customize-control-ios_icon, #customize-control-windows_icon');
+	var overrideControl = jQuery('#customize-control-override_icon');
 	if (wp.customize('site_icon').get() === '0') {
 		overrideControl.hide();
 		iconFields.hide();
