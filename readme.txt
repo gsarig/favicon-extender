@@ -5,7 +5,7 @@ Tags: favicon
 Requires at least: 4.8
 Tested up to: 5.4
 Requires PHP: 7.0
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 
 
@@ -41,7 +41,7 @@ Mobile (Android) icons should be png of 192x192 pixels (transparency is allowed)
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.0.4 =
 * Fixed a bug with jQuery calling.
 
 = 1.0 =
