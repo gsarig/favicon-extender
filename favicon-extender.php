@@ -3,7 +3,7 @@
  * Plugin Name: Favicon Extender
  * Plugin URI: https://wordpress.org/plugins/favicon-extender/
  * Description: Extend the native WordPress Site Icon functionality to use different icons for Android, iOS and Windows.
- * Version: 1.0.4
+ * Version: 1.0.5
  * Author: Giorgos Sarigiannidis
  * Author URI: https://www.gsarigiannidis.gr
  * License: GPL3
@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'FAVEXTENDER_VERSION', '1.0' );
+define( 'FAVEXTENDER_VERSION', '1.0.5' );
 
 add_action( 'init', 'favextender_load_textdomain' );
 /**

@@ -3,9 +3,9 @@ Contributors: gsarig
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JHG58DVQSEA76
 Tags: favicon
 Requires at least: 4.8
-Tested up to: 5.4
+Tested up to: 5.6
 Requires PHP: 7.0
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 
 
@@ -40,6 +40,9 @@ Mobile (Android) icons should be png of 192x192 pixels (transparency is allowed)
 1. Favicon Extender options.
 
 == Changelog ==
+
+= 1.0.5 =
+* Fixed a PHP notice.
 
 = 1.0.4 =
 * Fixed a bug with jQuery calling.

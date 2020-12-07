@@ -73,6 +73,6 @@ class Customizer {
 	}
 
 	public static function sanitize_checkbox( $input ) {
-		return ( isset( $input ) && $input === true ? true : false );
+		return isset( $input ) && $input === true;
 	}
 }
