@@ -17,4 +17,12 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 /.idea
-
+.idea
+.gitignore
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/ootb-openstreetmap.iml
+/.idea/php.xml
+/.idea/vcs.xml
+/node_modules/
+/.idea/

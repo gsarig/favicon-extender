@@ -3,7 +3,7 @@ Contributors: gsarig
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JHG58DVQSEA76
 Tags: favicon
 Requires at least: 4.8
-Tested up to: 5.6
+Tested up to: 6.1
 Requires PHP: 7.0
 Stable tag: 1.0.5
 License: GPLv2 or later
