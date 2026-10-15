@@ -3,9 +3,9 @@ Contributors: gsarig
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JHG58DVQSEA76
 Tags: favicon
 Requires at least: 4.8
-Tested up to: 6.4
+Tested up to: 7.1
 Requires PHP: 7.0
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 
 
@@ -40,6 +40,10 @@ Mobile (Android) icons should be png of 192x192 pixels (transparency is allowed)
 1. Favicon Extender options.
 
 == Changelog ==
+
+= 1.0.6 =
+* Fixed the iOS icon override, which stopped working when WordPress switched to the apple-touch-icon tag.
+* Custom icons now use the full-size image instead of the 150px thumbnail.
 
 = 1.0.5 =
 * Fixed a PHP notice.
