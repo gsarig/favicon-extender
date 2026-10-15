@@ -28,9 +28,9 @@ class Extender {
 	 */
 	public static function add_icons( $meta_tags ) {
 		$is_enabled = get_theme_mod( 'override_icon' );
-		$android    = wp_get_attachment_image_src( absint( get_theme_mod( 'android_icon' ) ) );
-		$ios        = wp_get_attachment_image_src( absint( get_theme_mod( 'ios_icon' ) ) );
-		$windows    = wp_get_attachment_image_src( absint( get_theme_mod( 'windows_icon' ) ) );
+		$android    = wp_get_attachment_image_src( absint( get_theme_mod( 'android_icon' ) ), 'full' );
+		$ios        = wp_get_attachment_image_src( absint( get_theme_mod( 'ios_icon' ) ), 'full' );
+		$windows    = wp_get_attachment_image_src( absint( get_theme_mod( 'windows_icon' ) ), 'full' );
 		if ( $is_enabled ) {
 			foreach ( $meta_tags as $key => $value ) {
 				if ( strpos( $value, '192x192' ) && isset( $android[0] ) && $android[0] ) {
@@ -40,10 +40,10 @@ class Extender {
 						esc_url( $android[0] )
 					);
 				}
-				if ( strpos( $value, 'apple-touch-icon-precomposed' ) && isset( $ios[0] ) && $ios[0] ) {
+				if ( strpos( $value, 'apple-touch-icon' ) && isset( $ios[0] ) && $ios[0] ) {
 					unset( $meta_tags[ $key ] );
 					$meta_tags[] = sprintf(
-						'<link rel="apple-touch-icon-precomposed" href="%s" />',
+						'<link rel="apple-touch-icon" href="%s" />',
 						esc_url( $ios[0] )
 					);
 				}
